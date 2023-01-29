@@ -1,48 +1,22 @@
-//*** chapter 2****//
+//..Question 1..//
+// var age = "I am 21 years old"
+// alert (age)
 
 
-//'''Question 1'''//
-// var userName ="test";
-// console.log(userName)
+//..Question 2..//
+// var visit = "You have visited this site 14 times";
+// alert(visit)
 
 
-//''Question 2''//
-// var myName ="muhammad ahmed";
-// console.log(myName)
+//..Question 3..//
+// var birthYear = 2001;
+// document.write("My birth year is " + birthYear);
 
 
-//''Question 3''//
-// var message ="Hello world";
-// alert(message)
+//..Question 4..//
+// var name =" Muhammad Ahmed ";
+// var product = " T-shirt(s) ";
+// var quantity = 5;
+// document.write(name + " ordered " + quantity + product  + " on xyz colothing store. " );
 
 
-//''Question 4''//
-// var name = "Ahmed";
-// var age = "21 years old";
-// var qualification = "certified Hafiz-e-Quaraan";
-// alert(name)
-// alert(age)
-// alert(qualification)
-
-
-//''Question 5''//
-// var pizza = "pizza \npizz \npiz \npi \np";
-// alert(pizza)
-
-//''Question 6''// 
-// var email = "my email address is m.ahmedkarim@gmail.com";
-// alert(email)
-
-
-//''Question 7''//
-// var book = "“A smarter way to learn JavaScript”.";
-// alert ("I am trying to learn from the book"+book)
-
-
-//''Question 8''//
-// document.write("Yah! I can write HTML content through Javascrip");
-
-
-//''Question 9''//
-// var content = "“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”";
-// alert (content)
