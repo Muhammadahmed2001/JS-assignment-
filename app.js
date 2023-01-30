@@ -1,22 +1,50 @@
-//..Question 1..//
-// var age = "I am 21 years old"
-// alert (age)
+//..chapter 4..//
+
+
+//..Question 1 ..//
+// var name,father,age = "my name is ahmed ";
 
 
 //..Question 2..//
-// var visit = "You have visited this site 14 times";
-// alert(visit)
+//..Illegal variable..//
+// var 2nd = "ahmed";
+// var father name ="a.karim";
+// var var ="my var";
+// var ahmedkarim = "my name";
+// var Rose = "gulab";
+
+// //..Legal variable..//
+// var name ="ahmed";
+// var ahmedKarim ="my name";
+// var _age ="21 years old";
+// var $value = "250 rupes";
+// var x = "saylani";
 
 
 //..Question 3..//
-// var birthYear = 2001;
-// document.write("My birth year is " + birthYear);
+
+//..A..//
+// document.write("<h1>Rules for naming JS variables</h1>");
+
+//..B..//
+// var $ = "$";
+// var 1 = "1st";
+// var _ = "variable";
 
 
-//..Question 4..//
-// var name =" Muhammad Ahmed ";
-// var product = " T-shirt(s) ";
-// var quantity = 5;
-// document.write(name + " ordered " + quantity + product  + " on xyz colothing store. " );
+//..c..//
+// var $name = "ahmed";
+// var _name = "ahmed";
+// var name = "ahmed";
+
+
+//..d..//
+// var js = "sensitive";
+
+
+//..e..//
+// var keywords = "js";
+
+
 
 
