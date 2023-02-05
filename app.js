@@ -84,31 +84,52 @@
 
 
 //..question 6..//
-var subject_1 = prompt("Enter your subject 1", "Urdu")
+// var subject_1 = prompt("Enter your subject 1", "Urdu")
 // var subject_2 = prompt("Enter your subject 2", "English")
 // var subject_3 = prompt("Enter your subject 3", "Math")
-var totalMarks = 100
-var obtained_1 = prompt("Obtained marks for first subject")
-// var obtained_2 = prompt("Obtained marks for secound subject")
-// var obtained_3 = prompt("Obtained marks for third subject")
+// var totalMarks = 100
+// var obtained_1 = +prompt("Obtained marks for first subject")
+// var obtained_2 = +prompt("Obtained marks for secound subject")
+// var obtained_3 = +prompt("Obtained marks for third subject")
+// var totalObtained = obtained_1+obtained_2+obtained_3;
 
-var percentage = obtained_1 * 100 / totalMarks
-// document.write(subject_1+ "&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; " +totalMarks+ " &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;"+obtained_1+ " &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;"+percentage+"% <br />" )
+// var percentage_1 = obtained_1 * 100 / totalMarks
+// var percentage_2 = obtained_2 * 100 / totalMarks
+// var percentage_3 = obtained_3 * 100 / totalMarks
 
-document.write("<table>")
-document.write("<tr>")
-document.write("<th>subject</th>")
-document.write("<th>Total Marks</th>")
-document.write("<th>Obtained Marks</th>")
-document.write("<th>percentage</th>")
-document.write("</tr>")
-document.write("<tr>")
-document.write("<td>"+ subject_1 + "</td>")
-document.write("<td>"+ totalMarks + "</td>")
-document.write("<td>"+ obtained_1 + "</td>")
-document.write("<td>"+ percentage +"%" + "</td>")
-document.write("</tr>")
-document.write("</table>")
+
+// document.write("<table>")
+// document.write("<tr>")
+// document.write("<th>subject</th>")
+// document.write("<th>T.Marks</th>")
+// document.write("<th>O.Marks</th>")
+// document.write("<th> Percentage </th>")
+// document.write("</tr>")
+// document.write("<tr>")
+// document.write("<td>"+ subject_1 + "</td>")
+// document.write("<td>"+ totalMarks + "</td>")
+// document.write("<td>"+ obtained_1 + "</td>")
+// document.write("<td>"+ percentage_1 +"%" + "</td>")
+// document.write("</tr>")
+// document.write("<tr>")
+// document.write("<td>"+ subject_2 + "</td>")
+// document.write("<td>"+ totalMarks + "</td>")
+// document.write("<td>"+ obtained_2 + "</td>")
+// document.write("<td>"+ percentage_2 +"%" + "</td>")
+// document.write("</tr>")
+// document.write("<tr>")
+// document.write("<td>"+ subject_3 + "</td>")
+// document.write("<td>"+ totalMarks + "</td>")
+// document.write("<td>"+ obtained_3 + "</td>")
+// document.write("<td>"+ percentage_3 +"%" + "</td>")
+// document.write("</tr> ")
+// document.write("<tr>")
+// document.write("<td>" + "Total" + "</td>")
+// document.write("<td>" + totalMarks * 3 + "</td>")
+// document.write("<td>" + totalObtained + "</td>")
+// document.write("<td>" + obtained_1 * totalMarks / 100 +"%"+ "</td>")
+// document.write("</tr> ")
+// document.write("</table>")
 
 
 
