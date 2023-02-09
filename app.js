@@ -1,176 +1,109 @@
-//..chapter 9-11..//
+//..question 1..//
 
-
-//.. question 1 ..//
-
-// var city = prompt("Enter the city");
-
-// if (city === "karachi"){
-//     alert("Wellcome to city of lights ..")
+// var charactar = prompt("Enter the character")
+// newCharacter = charactar.charCodeAt();
+// if (newCharacter >= 65 && newCharacter <= 90 ){
+//     alert("Capital")
 // }
-
+// else if(newCharacter >= 97 && newCharacter <= 122){
+//     alert("Small")
+// }
+// else{
+//     alert("Not an Alphabet")
+// }
 
 
 //..question 2..//
-// var gender = prompt("Enter your gender")
+// var num1 = +prompt("Enter the number")
+// var num2 = +prompt("Enter the second number")
 
-// if (gender === "male") {
-//     alert("Good Morning Sir !!!")
+// if (num1 > num2){
+//     document.write( num1+ " " +"Larger number")
 // }
-// if (gender === "female") {
-//     alert("Good  Morning Ma'am !!!")
+// else if(num2 > num1){
+//     document.write(num2 + " " + "Larger number")
 // }
-
-
-//..question 3 ..//
-
-// var signal = prompt(" Enter color of road traffic signals ")
-
-// if (signal === "red" ) {
-//     alert("Must stop")
+// else if(num1 === num2){
+//     document.write("Both number are equal")
 // }
-// if (signal === "yellow") {
-//     alert("Ready to move")
-// }
-// if (signal === "green") {
-//     alert("Move now")
+// else{
+//     document.write("Not a number")
 // }
 
-//..question 4 ..//
 
-// var fuel = prompt("Tell me remaining fuel in your car (in litre)")
+//..question 3..//
+// var num = +prompt("Enter the number")
 
-// if (fuel < "0.25"){
-//     alert("Please refill the fuel in your car")
+// if (num > 0){
+//     document.write("Your number is Positive")
+// }
+// else if(num < 0){
+//     document.write("Your number is negative")
+// }
+// else if (num === 0){
+//     document.write("Your number is zero")
+// }
+// else{
+//     document.write("Not a number")
+// }
+
+
+//..question 4..//
+// var alphabet = prompt("Enter a alphabet")
+
+// if (alphabet === "a"||alphabet === "e"||alphabet === "i"||alphabet === "o"||alphabet === "u"){
+//     document.write("True ..! it is vowel")
+// }
+// else{
+//     document.write("False ..! Not a vowel ")
 // }
 
 
 //..question 5..//
+// var password = "ahmed";
+// var userPassword = prompt("Enter your password")
 
-// var a = 4
-
-// if (++a === 5){
-//     alert("given condition for variable a is true ")
+// if (password === userPassword){
+//     alert("Correct!")
+// }
+// else if(userPassword === ""){
+//     alert("Please Enter Your Password")
+// }
+// else{
+//     alert("Incorrect password")
 // }
 
 
+//..question 6..//
 
 
-
-
-
-
-//..question 6 ..//
-
-
-// var totalMarks = prompt ("Enter your Total Marks in three subjects")
-// var obtainedMarks = prompt("Enter your Obtained Marks in three subjects ")
-
-// var percentage = obtainedMarks * 100 / totalMarks
-
-// if (percentage >= 80){
-// document.write("<b>Total Marks :" + " " + totalMarks + "</b>" + "<br />")
-// document.write("<b>Marks Obtained :" + " " + obtainedMarks + "</b>" + "<br />")
-// document.write("<b>Percentage :" + " " + percentage +"%"+ "</b>" + "<br />")
-// document.write("<b>Grade :" + " " + "A-one" + "</b>" + "<br />")
-// document.write("<b>Remarks :" + " " + "Excellent" + "</b>" + "<br />")
+// var greeting 
+// var hour = 13
+// if (hour < 18){
+//     alert("Good day")
 // }
-// else if (percentage >= 70){
-//     document.write("<b>Total Marks :" + " " + totalMarks + "</b>" + "<br />")
-//     document.write("<b>Marks Obtained :" + " " + obtainedMarks + "</b>" + "<br />")
-//     document.write("<b>Percentage :" + " " + percentage +"%"+ "</b>" + "<br />")
-//     document.write("<b>Grade :" + " " + "A" + "</b>" + "<br />")
-//     document.write("<b>Remarks :" + " " + "Good" + "</b>" + "<br />")
-//     }
-//     else if (percentage >= 60){
-//         document.write("<b>Total Marks :" + " " + totalMarks + "</b>" + "<br />")
-//         document.write("<b>Marks Obtained :" + " " + obtainedMarks + "</b>" + "<br />")
-//         document.write("<b>Percentage :" + " " + percentage +"%"+ "</b>" + "<br />")
-//         document.write("<b>Grade :" + " " + "B" + "</b>" + "<br />")
-//         document.write("<b>Remarks :" + " " + "You need to improve" + "</b>" + "<br />")
-//         }
-//         else if (percentage < 60 ){
-//             document.write("<b>Total Marks :" + " " + totalMarks + "</b>" + "<br />")
-//             document.write("<b>Marks Obtained :" + " " + obtainedMarks + "</b>" + "<br />")
-//             document.write("<b>Percentage :" + " " + percentage +"%"+ "</b>" + "<br />")
-//             document.write("<b>Grade :" + " " + "Fail" + "</b>" + "<br />")
-//             document.write("<b>Remarks :" + " " + "Sorry" + "</b>" + "<br />")
-//             }
-
+// else{
+//     alert("Good evening")
+// }
 
 
 //..question 7..//
-// var num = prompt("Guessed the secret number")
 
-// if (num === "5"){
-//     alert("Bingo! Correct answer.")
+
+// var time = +prompt("Enter time (24 hours clock format)");
+
+// if (time >= 0000 && time < 1200){
+//     document.write("<b>Good Morning!</b>")
 // }
-// else if (num !== "5"){
-//     alert("Close enough to the correct answer .")
+// else if(time >= 1200 && time < 1700 ){
+//     document.write("<b>Good Afternoon!</b>")
 // }
-
-
-
-//..question 10..//
-
-// temperature = prompt("Enter the today Temparature ")
-
-// if (temperature > 40){
-//     alert("It is too hot outside.")
+// else if(time >= 1700 && time < 2100){
+//     document.write("<b>Good Evening!</b>")
 // }
-// else if(temperature > 30){
-//     alert("The Weather today is Normal.")
+// else if (time >= 2100 && time < 2359){
+//     document.write("<b>Good Night!</b>")
 // }
-// else if (temperature > 20){
-//     alert("Today’s Weather is cool.")
+// else{
+//     document.write("<b>Something was wrong!!!</b>")
 // }
-// else if (temperature > 10){
-//     alert("OMG! Today’s weather is so Cool.")
-// }
-
-
-//..question 11 ..//
-
-// var firstNumber = +prompt("Enter the first number");
-// var Operation = prompt("Enter the Operation");
-// var seceondNumber = +prompt("Enter the second number");
-// if (Operation === "-") {
-//     alert(firstNumber - seceondNumber)
-// }
-
-// else if (Operation === "+") {
-//     alert(firstNumber + seceondNumber)
-// }
-
-// else if (Operation === "*") {
-//     alert(firstNumber * seceondNumber)
-// }
-
-// else if (Operation === "/") {
-//     alert(firstNumber / seceondNumber)
-// }
-
-// else if (Operation === "%") {
-//     alert(firstNumber % seceondNumber)
-// }
-
-//..question 8 ..//
-
-// var num = +prompt("write the number that divisible by 3")
-
-// if (num % 3 == "0"){
-//     alert("Your number is divisible by 3")
-// }
-
-
-//..question 9 ..//
-// var num = +prompt("Enter the Number ")
-
-// if (num % 2 == "0"){
-//     alert("Number is even")
-// }
-// else {
-//     alert("Number is odd")
-// }
-
-
