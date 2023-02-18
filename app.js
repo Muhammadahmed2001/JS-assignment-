@@ -1,159 +1,67 @@
+
+
 //..question 1..//
 
-// var nam = new Array("ahmed","karim","samad");
-
-
-
+// var a = [['ahmed'],'karim','samad'];
+// console.log(a);
 
 //..question 2..//
-
-// var nam = ["ahmed","karim","samad"];
-
-
-
+// var a =[[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+// document.write(a[0].join("")+"<br />"+a[1].join("")+"<br />"+a[2].join("")+"<br />");
 
 //..question 3..//
-// var nam = ["ahmed","karim","samad"]
-// console.log(nam)
-
-
+// for(var i = 1; i <= 10;i++){
+//     console.log(i);
+// }
 
 //..question 4..//
 
-// var num =[1,2,3,4]
-// console.log(num)
+// var num = prompt("Enter the number for table");
+// var len = prompt("Enter lenght multiplication table ")
+// for (i = 1; i <= len; i++) {
+//     document.write(num+" "+"x"+" "+i+" "+"="+" "+i*num+"<br />")
+// }
 
 
 //..question 5..//
 
-// var boolean = [true,false,true,false];
-// console.log(boolean);
+// var fruit = ["apple", "banana", "mango", "orange", "strawberry"];
 
+// for (i = 0; i < fruit.length; i++) {
+//     document.write(fruit[i] + '<br />');
+// }
+
+// for (i = 0; i < fruit.length; i++) {
+
+//     document.write("Element in index" + " " + i + " " + 'is' + " " + fruit[i] + "<br />")
+// }
 
 
 //..question 6..//
-// var mix = ["ahmed",500,true];
-// console.log(mix);
 
+//====>(a)
+// for(i = 1;i <= 15;i++){
+//     document.write(i+"<br />");
+// }
 
+//====>(b)
+// for (i = 10; i > 0; i--) {
+//     document.write(i + "<br />")
+// }
 
-//..question 7..//
+//====>(c)
+// for (i = 0; i <= 10; i++) {
+// document.write8(i * 2);
+// }
 
-
-// var qualification = ["SSC","HSC","BCS","BS","BCOM","MS","M.PHIL","PHD"]
-
-// document.write("<h1>Qualifications</h1>")
-// document.write("<h3>"+qualification[0]+"</h3>")
-// document.write("<h3>"+qualification[1]+"</h3>")
-// document.write("<h3>"+qualification[2]+"</h3>")
-// document.write("<h3>"+qualification[3]+"</h3>")
-// document.write("<h3>"+qualification[4]+"</h3>")
-// document.write("<h3>"+qualification[5]+"</h3>")
-// document.write("<h3>"+qualification[6]+"</h3>")
-// document.write("<h3>"+qualification[7]+"</h3>")
-
-
-
-//..question 8..//
-
-
-// var nam = ["Ahmed","Karim","Samad"];
-// var score =[320,230,480];
-// var total = 500
-// var percentage_1 = score[0] * 100 / total + "%";
-// var percentage_2 = score[1] * 100 / total + "%";
-// var percentage_3 = score[2] * 100 / total + "%";
-// document.write("<b>Score of"+ " "+ nam[0]+ " " + "is" + " "+ score[0]+ "."+" "+ "Percentage :"+" "+ percentage_1 + "</b> <br />")
-// document.write("<b>Score of"+ " "+ nam[1]+ " " + "is" + " "+ score[1]+ "."+" "+ "Percentage :"+" "+ percentage_2 + "</b> <br />")
-// document.write("<b>Score of"+ " "+ nam[2]+ " " + "is" + " "+ score[2]+ "."+" "+ "Percentage :"+" "+ percentage_3 + "</b> <br />")
-
-
-
-//..question 9..//
-
-// var color = ["blue","red","green"]
-// document.write(color)
-
-//===>(a)
-// var add = prompt("Add color")
-// var add_2 = prompt("Add 2nd color")
-// color.unshift(add);
-// document.write(color)
-
-
-//===>(b)
-// color.push(add);
-// document.write(color);
-
-
-//===>(c)
-// color.unshift(add,add_2)
-// document.write(color)
-
-
-//===>(d)
-// color.shift();
-// document.write(color)
-
-
-//===>(e)
-// color.pop();
-// document.write(color);
-
-
-//===>(f)
-// var whichIndex = +prompt("Which index to add color");
-// var colorName = prompt("Color Name")
-
-// color.splice(whichIndex,0,colorName);
-
-// document.write(color)
-
-
-//===>(g)
-// var whichIndex = +prompt("Which index to delete color");
-// var color_delete = prompt("How many color you wants to delete");
-// color.splice(whichIndex,color_delete)
-// document.write(color);
-
+//====>(d)
+// for (i = 1; i <= 20; i++){
+//     if((i % 2)!=0){
+//         document.write(i)
+//     }
+// }
 
 //..question 10..//
-
-// var score = [320,230,480,120];
-// score.sort();
-// document.write(score);
-
-
-
-//..question 11 ..//
-// var cities = ["Karachi","Lahore","Islamabad","Quetta","peshawar"];
-// document.write("<h1>Cities List</h1>"+ " " +cities )
-
-// var selectedCities = cities.slice(2,4);
-// document.write("<h1>Selected cities list :</h1>");
-// document.write(selectedCities)
-
-//..question 12..//
-// var arr = ["This","is","my","cat"];
-// document.write(arr.join(" "))
-
-//..question 15..//
-// var manufacture = ["Samsung","Apple","Motorola","Nokia","Sony","Haier"];
-
-// document.write("<select>"+
-// "<option>"+manufacture[0]+"</option>"+
-// "<option>"+manufacture[1]+"</option>"+
-// "<option>"+manufacture[2]+"</option>"+
-// "<option>"+manufacture[3]+"</option>"+
-// "<option>"+manufacture[4]+"</option>"+
-// "<option>"+manufacture[5]+"</option>"+
-// "</select>");
-
-
-
-
-
-
-
-
-
+// for (i = 1; i <= 20;i++){
+// document.write(i*5+"-")
+// }
