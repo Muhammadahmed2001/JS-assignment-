@@ -61,6 +61,57 @@
 //     }
 // }
 
+//====>(e)
+// for (i = 1; i <= 10; i++){
+//     document.write(2*i+"k"+" ");
+// }
+
+
+// ..question 7..//
+// var items = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var order = prompt("Wellcome to Karachi Bakery. What do you want to order sir?");
+// var stock = "";
+// for (i = 0; i < items.length; i++) {
+//     if (items[i] === order) {
+//         stock = "available";
+//         break
+//     }
+// }
+
+// if (stock == "available") {
+//     alert(order + " " + "is available at Index " + i + " in our bakery")
+// } else {
+//     alert("We are sorry ." + order + " " + "is not available in our bakery");
+// }
+
+
+//..question 8..//
+// var arr = [24, 53, 78, 91, 12];
+// document.write("Array items :"+" "+arr + "<br />");
+// var large = [arr[0]];
+
+// for (i = 0; i < arr.length; i++) {
+//     if (large < arr[i]) {
+//         large = arr[i]
+//     }
+
+// }
+// document.write("The largest number is "+ " " + large)
+
+
+//..question 9..//
+// var arr = [24, 53, 78, 91, 12];
+// document.write("Array items :" + " " + arr + "<br />");
+// var small = [arr[0]];
+// for (i = 0; i < arr.length; i++) {
+//     if (small > arr[i]) {
+//         small = arr[i]
+//     }
+// }
+// document.write("The smallest number is :" + " " + small);
+
+
+
 //..question 10..//
 // for (i = 1; i <= 20;i++){
 // document.write(i*5+"-")
